@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: black;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>
+            Horoscope
+        </h2>
+    </header>
+
+    <main>
+        <h1>
+            Class 1 lab
+        </h1>
+        <p style="background-color: brown;
+color: burlywood;">
+            "what's your name?"
+        </p>
+
+        <p style="color: cadetblue;
+background-color: darkblue;">
+            "how old are you?"
+        </p>
+
+        <p style="background-color: crimson;
+color: whitesmoke;">
+            "you were born in ?"
+        </p>
+
+        <p style="background-color: teal;
+color: thistle;">
+            "what's your zodiac?"
+        </p>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        var name = prompt("what's your name?", "ex.sarah");
+        var name2 = prompt('what\'s your name?');
+        console.log('your name is:', name);
+
+        var age = prompt("how old are you?", "ex.22");
+        console.log('you are:', age);
+
+        var dateOfbirth = prompt("you were born in ?", "ex.05/09/1997");
+        console.log('your date of birth is:', dateOfbirth);
+
+        var zodiac = prompt("what's your zodiac?", "ex.virgo");
+        console.log('your zodiac:', zodiac);
+        // alert('your name is'+ name + 'your age is '+age + 'date ' +dateOfbirth); 
+        alert(`your name is: ${name} your age is ${age} ${dateOfbirth} ${zodiac}`);
+    </script>
+</body>
+
+</html>

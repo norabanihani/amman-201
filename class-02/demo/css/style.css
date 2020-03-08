@@ -1,0 +1,17 @@
+body {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section p.some-content {
+    background-color: aqua;
+}
+
+#something {
+    border: 2px solid red;
+    width: 140px;
+    border-radius: 10%;
+}

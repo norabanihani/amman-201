@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Squada+One&display=swap');
+
+body {
+  background: rgb(153, 162, 241);
+}
+
+#intro {
+  /* font */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#details {
+  /* different font */
+  /* font-family: monospace; */
+  font-family: 'Squada One', cursive;
+
+}
+#more-details {
+  /* google font */
+  font-family: 'Lacquer', sans-serif;
+
+}

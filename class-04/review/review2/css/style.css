@@ -1,0 +1,92 @@
+body{
+    background-color: blueviolet;
+}
+
+main{
+    width: 800px;
+    background-color: rgb(24, 12, 36);
+    margin: 25px auto;
+    padding: 20px;
+    border: 10px solid rgb(190, 241, 4);
+}
+h1,p,h3,#gis{
+    border: 10px solid rgb(243, 83, 9);
+
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: chartreuse;
+    text-shadow: 7px 8px 7px rgb(206, 14, 14);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
+.mydiv{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-family: tahoma;
+    background-color: rgb(147, 107, 192);
+    text-shadow: 7px 8px 2px rgb(184, 173, 146);
+    box-shadow: rgb(185, 27, 27);
+    margin: 15px;
+    padding: 10px;    
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(50, 95, 5);
+    text-shadow: 7px 8px 2px rgb(218, 8, 8);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
+#gis{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(54, 23, 105);
+    text-shadow: 5px 5px 2px rgb(32, 9, 46);
+    box-shadow: rgb(39, 10, 107);
+    margin: 15px;
+    padding: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    transition: all .5s ease-in-out ;
+}
+img:hover{
+    transform: scale(.8);
+}
+ul{
+list-style: disc;
+border: 2px solid rgb(61, 47, 47);
+padding: 4px;
+margin: 4px;
+list-style: inside;
+}
+ul li{
+    padding: 4px;
+margin: 4px;
+color: darkred;
+}
+ ol{
+    padding: 4px;
+    margin: 4px;
+    font-size: 20px;
+    color: rgb(208, 230, 11);
+    list-style-type: upper-latin ;
+
+}
+ol li{
+    padding: 4px;
+margin: 4px;
+color: darkred;
+font-size: 16px;
+}
